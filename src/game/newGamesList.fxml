@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="game.newGamesOptionHandler">
+  <children>
+    <ImageView fitHeight="1000.0" fitWidth="1000.0" layoutX="1.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/pauseMenuBG.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="91.0" fitWidth="121.33333333333333" layoutX="859.0" layoutY="30.0" onMouseClicked="#closeButton" onMouseEntered="#makeGlow" onMouseExited="#removeGlow" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <InnerShadow choke="0.20634920634920634" height="43.17460317460317" radius="21.087301587301585" width="43.17460317460317" />
+      </effect>
+      <image>
+        <Image url="@../media/closeSign.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="584.3904724121094" fitWidth="411.8188117057776" layoutX="566.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/realTrump.gif" />
+      </image>
+    </ImageView>
+    <Label layoutX="71.0" layoutY="139.0" minHeight="54.0" prefHeight="54.0" prefWidth="861.0" text="Yoyey Comerade !!!  You are gonna fight my army">
+      <font>
+        <Font name="Gabriola" size="50.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="71.0" layoutY="181.0" minHeight="54.0" prefHeight="54.0" prefWidth="861.0" text="MY ARMY ! World's greatest Zombies Army" />
+    <Label layoutX="71.0" layoutY="30.0" minHeight="54.0" prefHeight="119.0" prefWidth="774.0" text="Godspeed Comerade">
+      <font>
+        <Font name="Gabriola" size="108.0" />
+      </font>
+    </Label>
+    <Label layoutX="41.0" layoutY="855.0" minHeight="53.9998779296875" prefHeight="54.0" prefWidth="613.0" text="P.S. You will still die like a dog- talented and beautiful dog.">
+      <font>
+        <Font name="Franklin Gothic Medium" size="24.0" fx:id="x2" />
+      </font>
+    </Label>
+    <Label font="$x2" layoutX="41.0" layoutY="882.0" minHeight="53.9998779296875" prefHeight="54.0" prefWidth="613.0" text="Cheeto Jesus." />
+    <Button fx:id="One" layoutX="59.0" layoutY="354.0" minHeight="74.0" mnemonicParsing="false" onMouseClicked="#newLevelOne" prefHeight="84.0" prefWidth="349.0" text="Level One">
+      <effect>
+        <ColorAdjust hue="0.6870229007633588" saturation="0.7328244274809159" />
+      </effect>
+      <font>
+        <Font size="48.0" fx:id="x3" />
+      </font>
+    </Button>
+    <Button fx:id="Two" font="$x3" layoutX="59.0" layoutY="458.0" minHeight="74.0" mnemonicParsing="false" onMouseClicked="#newLevelTwo" prefHeight="84.0" prefWidth="349.0" text="Level Two">
+      <effect>
+        <ColorAdjust hue="0.6870229007633588" saturation="0.7328244274809159" />
+      </effect>
+    </Button>
+    <Button fx:id="Three" font="$x3" layoutX="59.0" layoutY="561.0" minHeight="74.0" mnemonicParsing="false" onMouseClicked="#newLevelThree" prefHeight="84.0" prefWidth="349.0" text="Level Three">
+      <effect>
+        <ColorAdjust hue="0.6870229007633588" saturation="0.7328244274809159" />
+      </effect>
+    </Button>
+    <Button fx:id="Four" font="$x3" layoutX="59.0" layoutY="666.0" minHeight="74.0" mnemonicParsing="false" onMouseClicked="#newLevelFour" prefHeight="84.0" prefWidth="349.0" text="Level Four">
+      <effect>
+        <ColorAdjust hue="0.6870229007633588" saturation="0.7328244274809159" />
+      </effect>
+    </Button>
+    <Button fx:id="Five" font="$x3" layoutX="59.0" layoutY="771.0" minHeight="74.0" mnemonicParsing="false" onMouseClicked="#newLevelFive" prefHeight="84.0" prefWidth="349.0" text="Level Five">
+      <effect>
+        <ColorAdjust hue="0.6870229007633588" saturation="0.7328244274809159" />
+      </effect>
+    </Button>
+  </children>
+</AnchorPane>

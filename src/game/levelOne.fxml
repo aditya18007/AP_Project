@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="game.levelHandler">
+  <children>
+    <ImageView fitHeight="945.0" fitWidth="378.0" layoutX="1.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/houseBG.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="180.00003051757812" fitWidth="173.00003242681115" layoutX="1.0" layoutY="642.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/zeroLeft.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="81.32533204595582" fitWidth="180.00006948241935" layoutX="174.0" layoutY="999.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfBottom.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="81.325285821993" fitWidth="179.99996948242188" layoutX="354.0" layoutY="999.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/oneBottom.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="81.32533204595582" fitWidth="180.00006948241935" layoutX="534.0" layoutY="999.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfBottom.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="81.325285821993" fitWidth="179.99996948242188" layoutX="714.0" layoutY="999.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/oneBottom.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="81.32533204595582" fitWidth="180.00006948241935" layoutX="894.0" layoutY="999.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfBottom.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="81.325285821993" fitWidth="179.99996948242188" layoutX="1074.0" layoutY="999.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/oneBottom.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="81.32533204595582" fitWidth="180.00006948241935" layoutX="1254.0" layoutY="999.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfBottom.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="81.325285821993" fitWidth="179.99996948242188" layoutX="1434.0" layoutY="999.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/oneBottom.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="81.32533204595582" fitWidth="180.00006948241935" layoutX="1614.0" layoutY="999.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfBottom.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="180.0000095257177" fitWidth="173.00001525878906" layoutX="1.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfLeft.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="180.0000095257177" fitWidth="173.00001525878906" layoutX="1.0" layoutY="822.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfLeft.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="39.0" fitWidth="39.0" layoutX="135.0" layoutY="1002.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="180.00001525878906" fitWidth="173.0000054270774" layoutX="0.0" layoutY="900.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfLeft.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="81.3253402709961" fitWidth="180.00008341471334" layoutX="135.0" layoutY="1000.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfBottom.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="81.32533204595582" fitWidth="180.00006948241935" layoutX="1740.0" layoutY="999.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfBottom.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="179.99998474121094" fitWidth="127.99998948838953" layoutX="1791.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfRight.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="180.0" fitWidth="128.0" layoutX="1791.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/zeroRight.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="180.0" fitWidth="128.0" layoutX="1792.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfRight.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="180.0" fitWidth="128.0" layoutX="1791.0" layoutY="642.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/zeroRight.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="180.0" fitWidth="128.0" layoutX="1791.0" layoutY="822.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfRight.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="180.0" fitWidth="128.0" layoutX="1792.0" layoutY="854.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfRight.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="OneTwo" fitHeight="180.0" fitWidth="180.0" layoutX="354.0" layoutY="102.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/one.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="OneOne" fitHeight="180.0" fitWidth="180.0" layoutX="174.0" layoutY="102.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="TwoOne" fitHeight="180.00001525878906" fitWidth="180.00001525878906" layoutX="174.0" layoutY="282.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/zero.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="102.00000762939453" fitWidth="359.04002128999326" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="255.0" radius="127.0" width="255.0">
+          <input>
+            <Glow />
+          </input>
+        </DropShadow>
+      </effect>
+      <image>
+        <Image url="@../media/starCount.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="dashboard" fitHeight="102.00000381469727" fitWidth="918.0000081987522" layoutX="331.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="255.0" radius="127.0" width="255.0">
+          <input>
+            <Glow />
+          </input>
+        </DropShadow>
+      </effect>
+      <image>
+        <Image url="@../media/plantsCollection.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="101.99999237060547" fitWidth="122.89156525850979" layoutX="1797.0" layoutY="0.0" onMouseClicked="#toggle" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="255.0" radius="127.0" width="255.0" />
+      </effect>
+      <image>
+        <Image url="@../media/pause.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="99.69409891465182" fitWidth="546.3627319335938" layoutX="1249.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="83.4920634920635" radius="41.24603174603175" width="83.4920634920635" />
+      </effect>
+      <image>
+        <Image url="@../media/attackProgress.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="TwoTwo" fitHeight="180.0" fitWidth="180.0" layoutX="354.0" layoutY="282.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="ThreeTwo" fitHeight="180.0" fitWidth="180.0" layoutX="354.0" layoutY="462.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/one.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="ThreeOne" fitHeight="180.0" fitWidth="180.0" layoutX="174.0" layoutY="462.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FourOne" fitHeight="180.00001525878906" fitWidth="180.00001525878906" layoutX="174.0" layoutY="642.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/zero.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FourTwo" fitHeight="180.0" fitWidth="180.0" layoutX="354.0" layoutY="642.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FiveTwo" fitHeight="180.0" fitWidth="180.0" layoutX="354.0" layoutY="819.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/one.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FiveOne" fitHeight="180.0" fitWidth="180.0" layoutX="174.0" layoutY="819.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="OneFour" fitHeight="180.0" fitWidth="180.0" layoutX="712.0" layoutY="102.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/one.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="OneThree" fitHeight="180.0" fitWidth="180.0" layoutX="534.0" layoutY="102.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="TwoThree" fitHeight="180.00001525878906" fitWidth="180.00001525878906" layoutX="533.0" layoutY="282.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/zero.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="TwoFour" fitHeight="180.0" fitWidth="180.0" layoutX="713.0" layoutY="282.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="ThreeFour" fitHeight="180.0" fitWidth="180.0" layoutX="713.0" layoutY="462.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/one.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="ThreeThree" fitHeight="180.0" fitWidth="180.0" layoutX="534.0" layoutY="462.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FourThree" fitHeight="180.00001525878906" fitWidth="180.00001525878906" layoutX="533.0" layoutY="642.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/zero.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FourFour" fitHeight="180.0" fitWidth="180.0" layoutX="713.0" layoutY="642.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FiveFour" fitHeight="180.0" fitWidth="180.0" layoutX="713.0" layoutY="819.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/one.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FiveThree" fitHeight="180.0" fitWidth="180.0" layoutX="534.0" layoutY="819.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="OneSix" fitHeight="180.0" fitWidth="180.0" layoutX="1072.0" layoutY="102.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/one.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="OneFive" fitHeight="180.0" fitWidth="180.0" layoutX="892.0" layoutY="102.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="TwoFive" fitHeight="180.00001525878906" fitWidth="180.00001525878906" layoutX="893.0" layoutY="282.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/zero.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="TwoSix" fitHeight="180.0" fitWidth="180.0" layoutX="1073.0" layoutY="282.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="ThreeSix" fitHeight="180.0" fitWidth="180.0" layoutX="1073.0" layoutY="462.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/one.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="ThreeFive" fitHeight="180.0" fitWidth="180.0" layoutX="893.0" layoutY="462.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FourFive" fitHeight="180.00001525878906" fitWidth="180.00001525878906" layoutX="893.0" layoutY="642.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/zero.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FourSix" fitHeight="180.0" fitWidth="180.0" layoutX="1073.0" layoutY="642.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FiveSix" fitHeight="180.0" fitWidth="180.0" layoutX="1073.0" layoutY="819.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/one.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FiveFive" fitHeight="180.0" fitWidth="180.0" layoutX="893.0" layoutY="819.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="OneEight" fitHeight="180.0" fitWidth="180.0" layoutX="1431.0" layoutY="102.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/one.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="OneSeven" fitHeight="180.0" fitWidth="180.0" layoutX="1251.0" layoutY="102.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="TwoSeven" fitHeight="180.00001525878906" fitWidth="180.00001525878906" layoutX="1252.0" layoutY="282.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/zero.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="TwoEight" fitHeight="180.0" fitWidth="180.0" layoutX="1431.0" layoutY="282.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="ThreeEight" fitHeight="180.0" fitWidth="180.0" layoutX="1432.0" layoutY="462.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/one.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="ThreeSeven" fitHeight="180.0" fitWidth="180.0" layoutX="1252.0" layoutY="462.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FourSeven" fitHeight="180.00001525878906" fitWidth="180.00001525878906" layoutX="1252.0" layoutY="642.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/zero.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FourEight" fitHeight="180.0" fitWidth="180.0" layoutX="1432.0" layoutY="642.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FiveEight" fitHeight="180.0" fitWidth="180.0" layoutX="1432.0" layoutY="819.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/one.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FiveSeven" fitHeight="180.0" fitWidth="180.0" layoutX="1252.0" layoutY="819.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="TwoNine" fitHeight="180.00001525878906" fitWidth="180.00001525878906" layoutX="1611.0" layoutY="282.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/zero.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="ThreeNine" fitHeight="180.0" fitWidth="180.0" layoutX="1612.0" layoutY="462.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FourNine" fitHeight="180.00001525878906" fitWidth="180.00001525878906" layoutX="1611.0" layoutY="642.0" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/zero.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="FiveNine" fitHeight="180.0" fitWidth="180.0" layoutX="1612.0" layoutY="819.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="OneNine" fitHeight="180.0" fitWidth="180.0" layoutX="1611.0" layoutY="102.0" onDragEntered="#mouseEnter" onDragExited="#mouseExit" onMouseClicked="#planting" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="1.0" radius="0.0" width="1.0" />
+      </effect>
+      <image>
+        <Image url="@../media/half.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="peashooterCard" fitHeight="81.3253173828125" fitWidth="108.43375651041666" layoutX="359.0" layoutY="14.0" onMouseClicked="#selectCard" onMouseEntered="#mouseEnterOnCard" onMouseExited="#mouseExitOnCard" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/peaShooterCard.png" />
+      </image>
+    </ImageView>
+    <ImageView fx:id="sunflowerCard" fitHeight="81.3253173828125" fitWidth="108.43375651041666" layoutX="489.0" layoutY="14.0" onMouseClicked="#selectCard" onMouseEntered="#mouseEnterOnCard" onMouseExited="#mouseExitOnCard" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/sunFlowerCard.png" />
+      </image>
+    </ImageView>
+    <Label fx:id="sunCountLabel" layoutX="121.0" layoutY="15.0" minHeight="72.2891845703125" prefHeight="88.0" prefWidth="203.0" text="0">
+      <font>
+        <Font name="Gabriola" size="60.0" />
+      </font>
+    </Label>
+    <ImageView fitHeight="180.00003051757812" fitWidth="173.00003242681115" layoutX="1.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/zeroLeft.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="180.0000095257177" fitWidth="173.00001525878906" layoutX="1.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/halfLeft.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="176.99998474121094" fitWidth="137.99998474121094" layoutX="-13.0" layoutY="465.0" pickOnBounds="true" preserveRatio="false">
+      <image>
+        <Image url="@../media/welcomeMat.png" />
+      </image>
+    </ImageView>
+    <Label id="sunCountLabel" layoutX="894.0" layoutY="18.0" minHeight="65.2891845703125" prefHeight="65.2891845703125" prefWidth="212.0" text="current : ">
+      <font>
+        <Font name="Gabriola" size="75.0" />
+      </font>
+    </Label>
+    <Line endX="114.0" endY="-69.0" layoutX="767.0" layoutY="163.0" startX="114.0" startY="-156.0" strokeWidth="7.5" />
+    <ImageView fx:id="DashboardImageview" fitHeight="72.2891845703125" fitWidth="96.38557942708333" layoutX="1114.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" />
+    <ProgressBar fx:id="ProgressBar" layoutX="1280.0" layoutY="21.0" opacity="0.94" prefHeight="32.0" prefWidth="474.0000999999975" progress="0.0">
+      <effect>
+        <ColorAdjust brightness="-0.2290076335877862" contrast="0.916030534351145" hue="1.0" saturation="0.09160305343511443" />
+      </effect>
+    </ProgressBar>
+  </children>
+</AnchorPane>

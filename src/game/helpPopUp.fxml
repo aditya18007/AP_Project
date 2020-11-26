@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="game.helpHandler">
+  <children>
+    <ImageView fitHeight="1000.024169921875" fitWidth="1000.024169921875" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/pauseMenuBG.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="105.4300004533421" fitWidth="127.02409362792969" layoutX="849.0" layoutY="28.0" onMouseClicked="#closeButton" onMouseEntered="#makeGlow" onMouseExited="#removeGlow" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <InnerShadow choke="0.3968253968253968" height="51.238095238095234" radius="25.119047619047617" width="51.238095238095234" />
+      </effect>
+      <image>
+        <Image url="@../media/closeSign.png" />
+      </image>
+    </ImageView>
+    <Label layoutX="76.0" layoutY="219.0" minHeight="41.0" prefHeight="67.0" prefWidth="848.0" text="Whenever zombies attack, please be sure to keep the">
+      <font>
+        <Font name="Gabriola" size="50.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="76.0" layoutY="272.0" minHeight="41.0" prefHeight="67.0" prefWidth="848.0" text="salsa sauce and peri peri mix with your.  " />
+    <Label font="$x1" layoutX="76.0" layoutY="417.0" minHeight="41.0" prefHeight="67.0" prefWidth="848.0" text="You just sit back and die like a dog. " />
+    <Label font="$x1" layoutX="76.0" layoutY="474.0" minHeight="41.0" prefHeight="67.0" prefWidth="848.0" text="A beautiful , talented dog." />
+    <Label font="$x1" layoutX="76.0" layoutY="331.0" minHeight="41.0" prefHeight="67.0" prefWidth="848.0" text="Because your brains taste best with them." />
+    <Label layoutX="93.0" layoutY="51.0" minHeight="41.0" prefHeight="148.0" prefWidth="763.0" text="Please Note Carefully">
+      <font>
+        <Font name="Gabriola" size="108.0" />
+      </font>
+    </Label>
+    <Label layoutX="50.0" layoutY="894.0" minHeight="41.0" prefHeight="67.0" prefWidth="848.0" text="This section is powered by Trumplethinskin Zombies corps.">
+      <font>
+        <Font name="Franklin Gothic Medium" size="24.0" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="86.0" layoutY="630.0" minHeight="41.0" prefHeight="67.0" prefWidth="848.0" text="Yours Truly," />
+    <Label font="$x1" layoutX="86.0" layoutY="673.0" minHeight="41.0" prefHeight="67.0" prefWidth="205.0" text="Cheeto Jesus" />
+    <ImageView fitHeight="560.5581594843171" fitWidth="395.0242004394531" layoutX="591.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/realTrump.gif" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>

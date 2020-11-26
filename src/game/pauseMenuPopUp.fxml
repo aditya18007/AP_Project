@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="game.pauseMenuHandler">
+  <children>
+    <ImageView fitHeight="1009.0" fitWidth="1009.0" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../media/pauseMenuBG.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="105.4300004533421" fitWidth="127.02409362792969" layoutX="851.0" layoutY="38.0" onMouseClicked="#closeButton" onMouseEntered="#makeGlow" onMouseExited="#removeGlow" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <InnerShadow choke="0.5" height="30.0" radius="14.5" width="30.0" />
+      </effect>
+      <image>
+        <Image url="@../media/closeSign.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="105.42999267578125" fitWidth="843.43994140625" layoutX="83.0" layoutY="228.0" onMouseClicked="#saveGame" onMouseEntered="#makeGlow" onMouseExited="#removeGlow" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <InnerShadow choke="0.5" height="30.0" radius="14.5" width="30.0" />
+      </effect>
+      <image>
+        <Image url="@../media/saveGameButton.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="105.42999267578125" fitWidth="843.43994140625" layoutX="83.0" layoutY="572.0" onMouseClicked="#loadHelp" onMouseEntered="#makeGlow" onMouseExited="#removeGlow" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <InnerShadow choke="0.5" height="30.0" radius="14.5" width="30.0" />
+      </effect>
+      <image>
+        <Image url="@../media/help.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="105.42999267578125" fitWidth="843.43994140625" layoutX="83.0" layoutY="399.0" onMouseClicked="#loadMainMenu" onMouseEntered="#makeGlow" onMouseExited="#removeGlow" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <InnerShadow choke="0.5" height="30.0" radius="14.5" width="30.0" />
+      </effect>
+      <image>
+        <Image url="@../media/mainMenu.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="105.42999267578125" fitWidth="843.43994140625" layoutX="83.0" layoutY="737.0" onMouseClicked="#exitGame" onMouseEntered="#makeGlow" onMouseExited="#removeGlow" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <InnerShadow choke="0.5" height="30.0" radius="14.5" width="30.0" />
+      </effect>
+      <image>
+        <Image url="@../media/exitGameIcon.png" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>
